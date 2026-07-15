@@ -15,25 +15,30 @@
 			src:url('fonts/unicorns.ttf') format('truetype');
 		}
 
+		@font-face{
+			font-family: 'rainyhearts';
+			src: url(fonts/rainyhearts.ttf) format('truetype');
+		}
+
 		
 
 		h1{
-			font-family: 'Unicorn', cursive;
-			font-size: 7em;
+			font-family: 'rainyhearts', cursive;
+			font-size: 5em;
 			color: skyblue;
 			text-align: center;
 			text-shadow:
-        	-1px -1px 0 black,
-         	1px -1px 0 black,
-        	-1px  1px 0 black,
-         	1px  1px 0 black;
+        	-1px -1px 0 blue,
+         	1px -1px 0 blue,
+        	-1px  1px 0 blue,
+         	1px  1px 0 blue;
 
 		}
 
 		li{
 			padding: 10px;
 		    border-radius: 10px;
-		    background: linear-gradient(to bottom, white 15%, #ffc6ee);
+		    background: linear-gradient(to bottom, #ffafe7 15%, hotpink);
 		    width: 300px;
 		    text-align: center;
 		    list-style: none;
@@ -42,6 +47,8 @@
 
 
 		li a{
+			font-family: 'rainyhearts', cursive;
+			font-size: 150%;
 			color: white;
 		    font-weight: bold;
 		    text-decoration: none;
@@ -66,6 +73,10 @@
     		margin: 0 auto;
 		}	
 
+		hr{
+			color: hotpink;
+		}
+
 
 	</style>
 </head>
@@ -79,18 +90,14 @@
 			<img src="https://dividers.crd.co/assets/images/gallery03/3f6e0a2a.gif?v=05d33f91"
 				width="40%"
 				height="40%">
-			<img src="https://poempuppy.neocities.org/resources/stamps/0032.webp"
-				width="20%"
-				height="20%">
-			<img src="https://dividers.crd.co/assets/images/gallery03/3f6e0a2a.gif?v=05d33f91"
-				width="40%"
-				height="40%">
 
 		</div>
 	</div>
 
+	<hr />
 
-	<div class="wrapper">
+
+	<nav class="wrapper">
 		<ul>
 			<li>
 				<a href="recipes/lasagna.html">
@@ -114,7 +121,7 @@
 
 
 		</ul>
-	</div>
+	</nav>
 
 </body>
 </html>
