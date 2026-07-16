@@ -6,8 +6,8 @@
 	<title>Zune Recipes</title>
 	<style>
 		body{
-			background-image: url(https://64.media.tumblr.com/69ef5ef12262142db113d8643ba204ca/tumblr_inline_n25c9z9EQ71qhwjx8.gif);
-			background-repeat: repeat;
+			background-image: url('images/Space_parallax.png');
+			
 		}
 
 		@font-face {
@@ -24,25 +24,26 @@
 
 		h1{
 			font-family: 'rainyhearts', cursive;
-			font-size: 5em;
+			font-size: 6em;
 			color: skyblue;
 			text-align: center;
 			text-shadow:
-        	-1px -1px 0 blue,
-         	1px -1px 0 blue,
-        	-1px  1px 0 blue,
-         	1px  1px 0 blue;
+        	-2px -2px 0 rebeccapurple,
+         	2px -2px 0 rebeccapurple,
+        	-2px  2px 0 rebeccapurple,
+         	2px  2px 0 rebeccapurple;
 
 		}
 
 		li{
 			padding: 10px;
 		    border-radius: 10px;
-		    background: linear-gradient(to bottom, #ffafe7 15%, hotpink);
+		    background: linear-gradient(to bottom, skyblue 15%, rebeccapurple);
 		    width: 300px;
 		    text-align: center;
 		    list-style: none;
-		    margin: 10px auto;
+		    margin: 0;
+		    
 		}
 
 
@@ -52,29 +53,50 @@
 			color: white;
 		    font-weight: bold;
 		    text-decoration: none;
-		    text-shadow: -2px 0 #ffafe7, 0 2px #ffafe7, 2px 0 #ffafe7, 0 -2px #ffafe7;
+		    text-shadow: -2px 0 rebeccapurple, 0 2px rebeccapurple, 2px 0 rebeccapurple, 0 -2px rebeccapurple;
 		    display: block;
 		}
 		
-			
 
 
 		.wrapper{
-			background-color: rgb(255 255 255 / 40%);
-			max-width: 800px;
+			background-color: rgb(135 206 235 / 50%);
+			max-width: 700px;
     		margin: 30px auto;
     		padding: 30px;
     		border-radius: 25px;
 
+
 		}
+
+
 
 		.headerGifs img{
     		display: block;
     		margin: 0 auto;
 		}	
 
+		.wrapper2{
+		    background-color: rgb(255 255 255 / 20%);
+		    max-width: 400px;
+		    margin: 30px auto;
+		    padding: 30px;
+		    border-radius: 25px;
+		}
+
+
+		.wrapper2 ul{
+		    list-style: none;
+		    padding: 0;
+		    margin: 0;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    gap: 15px;
+		}
+
 		hr{
-			color: hotpink;
+			color: skyblue;
 		}
 
 
@@ -97,27 +119,27 @@
 	<hr />
 
 
-	<nav class="wrapper">
+	<nav class="wrapper2">
 		<ul>
 			<li>
 				<a href="recipes/lasagna.html">
 				Lasagna</a>
-			</li><br/>
+			</li>
 
 			<li>
 				<a href="recipes/chicken_echiladas.html">
 				Chicken Enchiladas with Creamy Green Chile Sauce</a>
-			</li><br/>
+			</li>
 
 			<li>
 				<a href="recipes/lemon_cake.html">
 				Lemon Texas Sheet Cake</a>
-			</li><br/>
+			</li>
 
 			<li>
 				<a href="recipes/chimichurri_steak.html">
 				Chopped Chimichurri Steak Salad</a>
-			</li><br/>
+			</li>
 
 
 		</ul>
