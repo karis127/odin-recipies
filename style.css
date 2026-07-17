@@ -18,6 +18,7 @@ h1{
 	font-size: 6em;
 	color: skyblue;
 	text-align: center;
+	padding: 10px;
 	text-shadow:
 	-2px -2px 0 rebeccapurple,
  	2px -2px 0 rebeccapurple,
@@ -25,17 +26,16 @@ h1{
  	2px  2px 0 rebeccapurple;
 }
 
-li{
+
+
+a{
 	padding: 10px;
     border-radius: 10px;
     background: linear-gradient(to bottom, skyblue 15%, rebeccapurple);
     width: 300px;
     text-align: center;
     list-style: none;
-    margin: 0;  
-}
-
-li a{
+    margin: 0;
 	font-family: 'rainyhearts', cursive;
 	font-size: 150%;
 	color: white;
@@ -45,18 +45,49 @@ li a{
     display: block;
 }
 
+.cuteFont{
+    text-align: center;
+    list-style: none;
+	font-family: 'rainyhearts', cursive;
+	font-size: 150%;
+	color: white;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: -2px 0 rebeccapurple, 0 2px rebeccapurple, 2px 0 rebeccapurple, 0 -2px rebeccapurple;
+    display: block;
+}
+
+
+
+h2{
+	font-size: 200%;
+	color: skyblue;
+	text-align: center;
+    list-style: none;
+	font-family: 'rainyhearts', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -2px 0 rebeccapurple, 0 2px rebeccapurple, 2px 0 rebeccapurple, 0 -2px rebeccapurple;
+    display: block;
+}
+
 .wrapper{
 	background-color: rgb(135 206 235 / 50%);
-	max-width: 700px;
+	max-width: auto;
 	margin: 30px auto;
 	padding: 30px;
 	border-radius: 25px;
 }
 
-.headerGifs img{
+.centerMedia img{
 	display: block;
 	margin: 0 auto;
-}	
+
+}
+
+.centerMedia a{
+	margin: 0 auto;
+}
 
 .wrapper2{
     background-color: rgb(255 255 255 / 20%);
@@ -66,7 +97,7 @@ li a{
     border-radius: 25px;
 }
 
-.wrapper2 ul{
+.wrapper2 ul, .wrapper2 ol{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -78,4 +109,29 @@ li a{
 
 hr{
 	color: skyblue;
+}
+
+.recipePhoto{
+    border: 6px solid skyblue;
+    outline: 3px solid rebeccapurple;
+    outline-offset: 4px;
+    border-radius: 10px;
+
+}
+
+.recipeLayout{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.recipeLayout .wrapper2{
+    margin: 0;
+    background-color: rgb(255 255 255 / 70%);
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 25px;
 }
